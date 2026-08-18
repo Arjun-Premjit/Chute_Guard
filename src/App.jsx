@@ -78,7 +78,7 @@ export default function App() {
 
   return <div className="app-shell">
     <header className="topbar">
-      <div><div className="eyebrow">SIH 2026 | Smart Automation / IoT</div>
+      <div><div className="eyebrow">SIH 2026 | Smart Automation | IoT</div>
         <h1>ChuteGuard AIoT</h1><p>Automated detection, prediction and prevention of material chute blockages.</p></div>
       <div className={`status-pill ${tone}`}><span className="dot"></span>{data.state||"NORMAL"} | Risk {riskPct}%</div>
     </header>
