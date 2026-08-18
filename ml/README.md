@@ -1,0 +1,2 @@
+Train on labeled prototype data. The default /api/predict.js is a demo model, not a validated safety controller.
+Validate a field-trained model, version it, add uncertainty estimates, and keep deterministic safety interlocks independent of ML.
